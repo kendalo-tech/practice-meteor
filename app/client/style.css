@@ -10,9 +10,6 @@
 /* Change bootstrap variable values.
  See https://getbootstrap.com/docs/5.2/customize/css-variables/
  */
-body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
-}
 
 /* Set the alert background on the signin and signup pages. */
 #signin-page .alert-light, #signup-page .alert-light {
@@ -25,4 +22,37 @@ body {
   color: var(--bs-dark);
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+body {
+  background-image: url("https://courses.ics.hawaii.edu/ics314s23/morea/ui-frameworks/wod-boardroom-background.jpg");
+  background-position: center;
+  background-size: cover;
+  --bs-light-rgb: 146, 146, 145;
+
+}
+
+.navbar{
+  --bs-navbar-brand-color: white;
+  background-color:grey;
+}
+
+#center{
+  margin-left: 450px;
+  margin-top: 150px;
+  margin-bottom: 130px;
+}
+
+#toplogo{
+
+  font-size: 20px;
+}
+
+footer{
+  position: absolute;
+  width:100%;
+}
+
+.top-pad{
+  display: inline-block;
 }
