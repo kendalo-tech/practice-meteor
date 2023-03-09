@@ -4,7 +4,7 @@ import CenterImage from '../components/CenterImage';
 import BottomFooter from '../components/BottomFooter';
 
 const Boardroom = () => (
-  <div className ="d-flex flex-column min-vh-100">
+  <div className="d-flex flex-column min-vh-100">
     <div className="px-o justify-content-center pb-2">
       <TopMenu />
       <CenterImage />

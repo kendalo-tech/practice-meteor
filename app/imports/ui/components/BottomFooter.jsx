@@ -9,8 +9,9 @@ const BottomFooter = () => (
         <Col>
           <Container>
             <h3>Hours</h3>
-            <p>Wednesday - Thursday 5pm – 10pm <br/>Friday - Saturday 5pm – 11pm <br/>Sunday Brunch 10am -
-              2pm</p>
+            <p>Wednesday - Thursday 5pm – 10pm <br />Friday - Saturday 5pm – 11pm <br />Sunday Brunch 10am -
+              2pm
+            </p>
           </Container>
         </Col>
 
@@ -24,16 +25,14 @@ const BottomFooter = () => (
           </Nav>
         </Col>
 
-        <Col>
-
-        </Col>
+        <Col />
 
         <Col>
           <h3>THE BOARDROOM</h3>
           <Nav className="navbar-nav">
             <li>44 Kainehe St.</li>
             <li>Kailua, HI 96734</li>
-            <br/>
+            <br />
             <li>(808)807-5640</li>
           </Nav>
         </Col>
